@@ -1,0 +1,19 @@
+[package]
+name = "licensechain/licensechain-luau-sdk"
+version = "1.0.0"
+description = "Official Luau SDK for LicenseChain - Secure license management for Roblox games and experiences"
+authors = ["LicenseChain Team"]
+license = "MIT"
+repository = "https://github.com/LicenseChain/LicenseChain-Luau-SDK"
+homepage = "https://licensechain.com"
+keywords = ["license", "management", "roblox", "luau", "sdk", "authentication", "validation"]
+categories = ["Authentication", "License Management", "SDK"]
+
+[dependencies]
+# No external dependencies required
+
+[dev-dependencies]
+# Development dependencies can be added here if needed
+
+[place]
+# Place configuration for Roblox Studio

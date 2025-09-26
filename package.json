@@ -1,0 +1,50 @@
+{
+  "name": "licensechain-luau-sdk",
+  "version": "1.0.0",
+  "description": "Official Luau SDK for LicenseChain - Secure license management for Roblox games and experiences",
+  "main": "src/LicenseChain.lua",
+  "scripts": {
+    "build": "rojo build --output LicenseChain.rbxm",
+    "serve": "rojo serve",
+    "test": "wally test",
+    "lint": "selene src/",
+    "format": "stylua src/"
+  },
+  "keywords": [
+    "license",
+    "management",
+    "roblox",
+    "luau",
+    "sdk",
+    "authentication",
+    "validation",
+    "webhook",
+    "analytics"
+  ],
+  "author": "LicenseChain Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LicenseChain/LicenseChain-Luau-SDK.git"
+  },
+  "homepage": "https://licensechain.com",
+  "bugs": {
+    "url": "https://github.com/LicenseChain/LicenseChain-Luau-SDK/issues"
+  },
+  "devDependencies": {
+    "@rojo/cli": "^0.1.0",
+    "selene": "^0.1.0",
+    "stylua": "^0.1.0",
+    "wally": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE",
+    "wally.toml"
+  ]
+}
