@@ -54,7 +54,7 @@ function LicenseChainClient.new(config)
 		apiKey = config.apiKey,
 		appName = config.appName,
 		version = config.version,
-		baseUrl = config.baseUrl or "https://api.licensechain.com",
+		baseUrl = config.baseUrl or "https://api.licensechain.app",
 		timeout = config.timeout or 30,
 		retries = config.retries or 3,
 		debug = config.debug or false

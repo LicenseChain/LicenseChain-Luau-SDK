@@ -5,7 +5,7 @@ description = "Official Luau SDK for LicenseChain - Secure license management fo
 authors = ["LicenseChain Team"]
 license = "MIT"
 repository = "https://github.com/LicenseChain/LicenseChain-Luau-SDK"
-homepage = "https://licensechain.com"
+homepage = "https://licensechain.app"
 keywords = ["license", "management", "roblox", "luau", "sdk", "authentication", "validation"]
 categories = ["Authentication", "License Management", "SDK"]
 

@@ -1,4 +1,4 @@
-# LicenseChain Luau SDK
+﻿# LicenseChain Luau SDK
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Luau](https://img.shields.io/badge/Luau-0.600+-blue.svg)](https://luau-lang.org/)
@@ -6,18 +6,18 @@
 
 Official Luau SDK for LicenseChain - Secure license management for Roblox games and experiences.
 
-## 🚀 Features
+## ðŸš€ Features
 
-- **🔐 Secure Authentication** - User registration, login, and session management
-- **📜 License Management** - Create, validate, update, and revoke licenses
-- **🛡️ Hardware ID Validation** - Prevent license sharing and unauthorized access
-- **🔔 Webhook Support** - Real-time license events and notifications
-- **📊 Analytics Integration** - Track license usage and performance metrics
-- **⚡ High Performance** - Optimized for Roblox's Luau runtime
-- **🔄 Async Operations** - Non-blocking HTTP requests and data processing
-- **🛠️ Easy Integration** - Simple API with comprehensive documentation
+- **ðŸ” Secure Authentication** - User registration, login, and session management
+- **ðŸ“œ License Management** - Create, validate, update, and revoke licenses
+- **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
+- **ðŸ”” Webhook Support** - Real-time license events and notifications
+- **ðŸ“Š Analytics Integration** - Track license usage and performance metrics
+- **âš¡ High Performance** - Optimized for Roblox's Luau runtime
+- **ðŸ”„ Async Operations** - Non-blocking HTTP requests and data processing
+- **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
 
-## 📦 Installation
+## ðŸ“¦ Installation
 
 ### Method 1: Roblox Studio (Recommended)
 
@@ -45,7 +45,7 @@ wally install
 2. Copy the `src/` folder contents to your project
 3. Place the `LicenseChain` module in `ReplicatedStorage`
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ### Basic Setup
 
@@ -150,7 +150,7 @@ end)
 client:startWebhookListener()
 ```
 
-## 📚 API Reference
+## ðŸ“š API Reference
 
 ### LicenseChainClient
 
@@ -165,7 +165,7 @@ local client = LicenseChain.new(config)
   - `apiKey` (string) - Your LicenseChain API key
   - `appName` (string) - Your application name
   - `version` (string) - Your application version
-  - `baseUrl` (string, optional) - API base URL (default: "https://api.licensechain.com")
+  - `baseUrl` (string, optional) - API base URL (default: "https://api.licensechain.app")
 
 #### Methods
 
@@ -256,7 +256,7 @@ client:trackEvent(eventName, properties)
 local success, analytics = client:getAnalytics(timeRange)
 ```
 
-## 🔧 Configuration
+## ðŸ”§ Configuration
 
 ### Environment Variables
 
@@ -269,7 +269,7 @@ LICENSECHAIN_APP_NAME=your-app-name
 LICENSECHAIN_APP_VERSION=1.0.0
 
 -- Optional
-LICENSECHAIN_BASE_URL=https://api.licensechain.com
+LICENSECHAIN_BASE_URL=https://api.licensechain.app
 LICENSECHAIN_DEBUG=true
 ```
 
@@ -280,14 +280,14 @@ local client = LicenseChain.new({
     apiKey = "your-api-key",
     appName = "your-app-name",
     version = "1.0.0",
-    baseUrl = "https://api.licensechain.com",
+    baseUrl = "https://api.licensechain.app",
     timeout = 30, -- Request timeout in seconds
     retries = 3, -- Number of retry attempts
     debug = false -- Enable debug logging
 })
 ```
 
-## 🛡️ Security Features
+## ðŸ›¡ï¸ Security Features
 
 ### Hardware ID Protection
 
@@ -315,7 +315,7 @@ local isValid = client:validateHardwareId(licenseKey, hardwareId)
 - Expiration checking
 - Feature-based access control
 
-## 📊 Analytics and Monitoring
+## ðŸ“Š Analytics and Monitoring
 
 ### Event Tracking
 
@@ -345,7 +345,7 @@ if success then
 end
 ```
 
-## 🔄 Error Handling
+## ðŸ”„ Error Handling
 
 ### Custom Error Types
 
@@ -378,7 +378,7 @@ local client = LicenseChain.new({
 })
 ```
 
-## 🧪 Testing
+## ðŸ§ª Testing
 
 ### Unit Tests
 
@@ -396,7 +396,7 @@ local integrationTests = require(ReplicatedStorage.LicenseChain.IntegrationTests
 integrationTests:runAllTests()
 ```
 
-## 📝 Examples
+## ðŸ“ Examples
 
 ### Complete Game Integration
 
@@ -464,7 +464,7 @@ local function purchaseLicense(player, licenseType)
 end
 ```
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -475,18 +475,18 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 3. Run tests: `wally test`
 4. Build: `wally build`
 
-## 📄 License
+## ðŸ“„ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## ðŸ†˜ Support
 
-- **Documentation**: [https://docs.licensechain.com/luau](https://docs.licensechain.com/luau)
+- **Documentation**: [https://docs.licensechain.app/luau](https://docs.licensechain.app/luau)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-Luau-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
-- **Email**: support@licensechain.com
+- **Email**: support@licensechain.app
 
-## 🔗 Related Projects
+## ðŸ”— Related Projects
 
 - [LicenseChain JavaScript SDK](https://github.com/LicenseChain/LicenseChain-JavaScript-SDK)
 - [LicenseChain Python SDK](https://github.com/LicenseChain/LicenseChain-Python-SDK)
@@ -495,4 +495,28 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the Roblox community**
+**Made with â¤ï¸ for the Roblox community**
+
+
+## API Endpoints
+
+All endpoints automatically use the /v1 prefix when connecting to https://api.licensechain.app.
+
+### Base URL
+- **Production**: https://api.licensechain.app/v1\n- **Development**: https://api.licensechain.app/v1\n\n### Available Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /v1/health | Health check |
+| POST | /v1/auth/login | User login |
+| POST | /v1/auth/register | User registration |
+| GET | /v1/apps | List applications |
+| POST | /v1/apps | Create application |
+| GET | /v1/licenses | List licenses |
+| POST | /v1/licenses/verify | Verify license |
+| GET | /v1/webhooks | List webhooks |
+| POST | /v1/webhooks | Create webhook |
+| GET | /v1/analytics | Get analytics |
+
+**Note**: The SDK automatically prepends /v1 to all endpoints, so you only need to specify the path (e.g., /auth/login instead of /v1/auth/login).
+
