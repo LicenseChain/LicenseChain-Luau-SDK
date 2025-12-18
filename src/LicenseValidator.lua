@@ -56,9 +56,9 @@ function LicenseValidator:validate(licenseKey, useCache)
 		return false, formatError
 	end
 	
-	-- Make API request to validate license
-	local success, result = self.client:_makeRequest("POST", "/licenses/validate", {
-		licenseKey = licenseKey,
+	-- Use /licenses/verify endpoint with 'key' parameter to match API
+	local success, result = self.client:_makeRequest("POST", "/licenses/verify", {
+		key = licenseKey,
 		hardwareId = self.client:getHardwareId()
 	})
 	
