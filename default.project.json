@@ -1,0 +1,12 @@
+{
+  "name": "LicenseChain-Luau-SDK",
+  "tree": {
+    "$className": "Folder",
+    "ReplicatedStorage": {
+      "$className": "Folder",
+      "LicenseChain": {
+        "$path": "src"
+      }
+    }
+  }
+}
