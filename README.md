@@ -10,12 +10,12 @@ Official Luau SDK for LicenseChain - Secure license management for Roblox games 
 
 - **ðŸ” Secure Authentication** - User registration, login, and session management
 - **📜 License Management** - Create, validate, update, and revoke licenses
-- **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
+- **🛡 Hardware ID Validation** - Prevent license sharing and unauthorized access
 - **🔔 Webhook Support** - Real-time license events and notifications
 - **📊 Analytics Integration** - Track license usage and performance metrics
-- **âš¡ High Performance** - Optimized for Roblox's Luau runtime
+- **⚡ High Performance** - Optimized for Roblox's Luau runtime
 - **🔄 Async Operations** - Non-blocking HTTP requests and data processing
-- **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
+- **🛠 Easy Integration** - Simple API with comprehensive documentation
 
 ## License assertion JWT (RS256 + JWKS)
 
@@ -297,7 +297,7 @@ local client = LicenseChain.new({
 })
 ```
 
-## ðŸ›¡ï¸ Security Features
+## 🛡 Security Features
 
 ### Hardware ID Protection
 
@@ -503,7 +503,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [LicenseChain Node.js SDK](https://github.com/LicenseChain/LicenseChain-NodeJS-SDK)
 ---
 
-**Made with â¤ï¸ for the Roblox community**
+**Made with ❤️ for the Roblox community**
 
 
 ## API Endpoints
