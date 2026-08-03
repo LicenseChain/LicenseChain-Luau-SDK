@@ -8,7 +8,7 @@ Official Luau SDK for LicenseChain - Secure license management for Roblox games 
 
 ## 🚀 Features
 
-- **ðŸ” Secure Authentication** - User registration, login, and session management
+- **🔐 Secure Authentication** - User registration, login, and session management
 - **📜 License Management** - Create, validate, update, and revoke licenses
 - **🛡 Hardware ID Validation** - Prevent license sharing and unauthorized access
 - **🔔 Webhook Support** - Real-time license events and notifications
@@ -406,7 +406,7 @@ local integrationTests = require(ReplicatedStorage.LicenseChain.IntegrationTests
 integrationTests:runAllTests()
 ```
 
-## ðŸ“ Examples
+## 📝 Examples
 
 ### Complete Game Integration
 
@@ -474,7 +474,7 @@ local function purchaseLicense(player, licenseType)
 end
 ```
 
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
