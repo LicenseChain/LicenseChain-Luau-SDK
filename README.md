@@ -6,15 +6,15 @@
 
 Official Luau SDK for LicenseChain - Secure license management for Roblox games and experiences.
 
-## ðŸš€ Features
+## 🚀 Features
 
 - **ðŸ” Secure Authentication** - User registration, login, and session management
-- **ðŸ“œ License Management** - Create, validate, update, and revoke licenses
+- **📜 License Management** - Create, validate, update, and revoke licenses
 - **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
-- **ðŸ”” Webhook Support** - Real-time license events and notifications
-- **ðŸ“Š Analytics Integration** - Track license usage and performance metrics
+- **🔔 Webhook Support** - Real-time license events and notifications
+- **📊 Analytics Integration** - Track license usage and performance metrics
 - **âš¡ High Performance** - Optimized for Roblox's Luau runtime
-- **ðŸ”„ Async Operations** - Non-blocking HTTP requests and data processing
+- **🔄 Async Operations** - Non-blocking HTTP requests and data processing
 - **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
 
 ## License assertion JWT (RS256 + JWKS)
@@ -27,7 +27,7 @@ Successful **`POST /v1/licenses/verify`** may include **`license_token`**, **`li
 
 **Luau:** This runtime exposes the claim constant for parity only; ship verification on your backend or a private service. Server-side reference module: **`examples/jwks_only_server_reference.lua`** (contract + `HttpService:GetAsync` toward **`GET /v1/licenses/jwks`**). See [THIN_CLIENT_PARITY](https://docs.licensechain.app/) and [JWKS_THIN_CLIENT_QUICKREF](https://docs.licensechain.app/).
 
-## ðŸ“¦ Installation
+## 📦 Installation
 
 ### Method 1: Roblox Studio (Recommended)
 
@@ -55,7 +55,7 @@ wally install
 2. Copy the `src/` folder contents to your project
 3. Place the `LicenseChain` module in `ReplicatedStorage`
 
-## ðŸš€ Quick Start
+## 🚀 Quick Start
 
 ### Basic Setup
 
@@ -160,7 +160,7 @@ end)
 client:startWebhookListener()
 ```
 
-## ðŸ“š API Reference
+## 📚 API Reference
 
 ### LicenseChainClient
 
@@ -266,7 +266,7 @@ client:trackEvent(eventName, properties)
 local success, analytics = client:getAnalytics(timeRange)
 ```
 
-## ðŸ”§ Configuration
+## 🔧 Configuration
 
 ### Environment Variables
 
@@ -325,7 +325,7 @@ local isValid = client:validateHardwareId(licenseKey, hardwareId)
 - Expiration checking
 - Feature-based access control
 
-## ðŸ“Š Analytics and Monitoring
+## 📊 Analytics and Monitoring
 
 ### Event Tracking
 
@@ -355,7 +355,7 @@ if success then
 end
 ```
 
-## ðŸ”„ Error Handling
+## 🔄 Error Handling
 
 ### Custom Error Types
 
@@ -388,7 +388,7 @@ local client = LicenseChain.new({
 })
 ```
 
-## ðŸ§ª Testing
+## 🧪 Testing
 
 ### Unit Tests
 
@@ -485,18 +485,18 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 3. Run tests: `wally test`
 4. Build: `wally build`
 
-## ðŸ“„ License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ðŸ†˜ Support
+## 🆘 Support
 
 - **Documentation**: [https://docs.licensechain.app/luau](https://docs.licensechain.app/luau)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-Luau-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
 - **Email**: support@licensechain.app
 
-## ðŸ”— Related Projects
+## 🔗 Related Projects
 
 - [LicenseChain JavaScript SDK](https://github.com/LicenseChain/LicenseChain-JavaScript-SDK)
 - [LicenseChain Python SDK](https://github.com/LicenseChain/LicenseChain-Python-SDK)
