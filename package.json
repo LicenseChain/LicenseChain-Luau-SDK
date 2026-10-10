@@ -1,6 +1,6 @@
 {
   "name": "licensechain-luau-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official Luau SDK for LicenseChain - Secure license management for Roblox games and experiences",
   "main": "src/LicenseChain.lua",
   "scripts": {
