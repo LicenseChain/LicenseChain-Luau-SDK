@@ -135,3 +135,5 @@ temp/
 # Local agent / OPSEC
 .claude/
 CLAUDE.md
+*.tsbuildinfo
+.npm/
