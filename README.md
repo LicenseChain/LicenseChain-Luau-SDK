@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
 [![Luau](https://img.shields.io/badge/Luau-0.600+-blue.svg)](https://luau-lang.org/)
 [![Roblox](https://img.shields.io/badge/Roblox-Studio-blue.svg)](https://create.roblox.com/)
+[![Wally](https://img.shields.io/badge/Wally-not%20published-lightgrey.svg)](https://github.com/LicenseChain/LicenseChain-Luau-SDK)
+[![CI](https://github.com/LicenseChain/LicenseChain-Luau-SDK/actions/workflows/ci.yml/badge.svg)](https://github.com/LicenseChain/LicenseChain-Luau-SDK/actions/workflows/ci.yml)
 
 Official Luau SDK for LicenseChain - Secure license management for Roblox games and experiences.
 
@@ -505,7 +507,6 @@ This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICEN
 
 **Made with ❤️ for the Roblox community**
 
-
 ## API Endpoints
 
 Use the canonical API base URL `https://api.licensechain.app/v1`. The SDK also accepts the root host and normalizes requests to the same API version.
@@ -527,7 +528,6 @@ Use the canonical API base URL `https://api.licensechain.app/v1`. The SDK also a
 | GET | /v1/analytics | Get analytics |
 
 **Note**: The SDK accepts either the root host or the canonical `/v1` base and normalizes endpoint requests automatically.
-
 
 ## LicenseChain API (v1)
 
