@@ -493,41 +493,19 @@ This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICEN
 
 ## 🆘 Support
 
-- **Documentation**: [https://docs.licensechain.app/luau](https://docs.licensechain.app/luau)
+- **Documentation**: [https://docs.licensechain.app/en/sdk](https://docs.licensechain.app/en/sdk)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-Luau-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
 - **Email**: support@licensechain.app
 
 ## 🔗 Related Projects
 
+- [LicenseChain Unity SDK](https://github.com/LicenseChain/LicenseChain-Unity-SDK)
 - [LicenseChain JavaScript SDK](https://github.com/LicenseChain/LicenseChain-JavaScript-SDK)
-- [LicenseChain Python SDK](https://github.com/LicenseChain/LicenseChain-Python-SDK)
 - [LicenseChain Node.js SDK](https://github.com/LicenseChain/LicenseChain-NodeJS-SDK)
 ---
 
 **Made with ❤️ for the Roblox community**
-
-## API Endpoints
-
-Use the canonical API base URL `https://api.licensechain.app/v1`. The SDK also accepts the root host and normalizes requests to the same API version.
-
-### Base URL
-- **Production**: https://api.licensechain.app/v1\n- **Development**: https://api.licensechain.app/v1\n\n### Available Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | /v1/health | Health check |
-| POST | /v1/auth/login | User login |
-| POST | /v1/auth/register | User registration |
-| GET | /v1/apps | List applications |
-| POST | /v1/apps | Create application |
-| GET | /v1/licenses | List licenses |
-| POST | /v1/licenses/verify | Verify license |
-| GET | /v1/webhooks | List webhooks |
-| POST | /v1/webhooks | Create webhook |
-| GET | /v1/analytics | Get analytics |
-
-**Note**: The SDK accepts either the root host or the canonical `/v1` base and normalizes endpoint requests automatically.
 
 ## LicenseChain API (v1)
 
@@ -543,4 +521,3 @@ This SDK targets the **LicenseChain HTTP API v1** implemented by the LicenseChai
   - PATCH /licenses/:id/activate
   - PATCH /licenses/:id/extend
   - GET /analytics/stats
-
