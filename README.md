@@ -506,8 +506,8 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 1. Clone the repository
 2. Install dependencies: `wally install`
-3. Run tests: `wally test`
-4. Build: `wally build`
+3. Run tests: `npm test` (toolchain check + `rojo build` smoke)
+4. Build: `npm run build`
 
 ## 📄 License
 

@@ -8,7 +8,7 @@
     "deps": "wally install",
     "build": "rojo build --output LicenseChain.rbxm",
     "serve": "rojo serve",
-    "test": "wally test",
+    "test": "npm run toolchain:check && rojo build --output build-ci.rbxm",
     "lint": "selene src/",
     "format": "stylua src/"
   },
