@@ -1,6 +1,6 @@
 # LicenseChain Luau SDK
 
-[![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Luau](https://img.shields.io/badge/Luau-0.600+-blue.svg)](https://luau-lang.org/)
 [![Roblox](https://img.shields.io/badge/Roblox-Studio-blue.svg)](https://create.roblox.com/)
 [![Wally](https://img.shields.io/badge/Wally-not%20published-lightgrey.svg)](https://github.com/LicenseChain/LicenseChain-Luau-SDK)
@@ -506,12 +506,12 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 1. Clone the repository
 2. Install dependencies: `wally install`
-3. Run tests: `wally test`
-4. Build: `wally build`
+3. Run tests: `npm test` (toolchain check + `rojo build` smoke)
+4. Build: `npm run build`
 
 ## 📄 License
 
-This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License (ELv2) — see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
